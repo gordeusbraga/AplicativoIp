@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 *{
-    margin: 0px;
     border: 0px;
     font-family: 'JetBrains Mono';
+    
 }
 body{
     background-color: black;
+    color: white;
 }
 html{
     scroll-behavior: smooth;
@@ -15,7 +16,7 @@ header{
     display: flex;
     background-color: #4a42423b;
     border-radius: 25px;
-    width: 270px;
+    width: 230px;
     padding: 1%;
     padding-right: 6%;
     display: flex;
@@ -23,6 +24,7 @@ header{
     align-items: center;
     padding-left: 8%;
     padding-right: 8%;
+    margin-top: 4%;
     
 }
 #headers{
@@ -52,6 +54,7 @@ main{
     display: grid;
     align-items: center;
     justify-content: center;
+    margin-top: -50px;
     
 }
  
@@ -76,12 +79,18 @@ footer{
     margin-left: -5%;
 }
 .textCadastro{
-    margin-top: 3%;
+    
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     padding: 20px;
+    padding-top: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
      
+}
+#ptextcadastro{
+    padding: 0px;
 }
 #check{
    display: flex;
@@ -97,4 +106,9 @@ footer{
 }
 p{
     color: white;
+}
+#funcionarioNome, #funcionarioEmail, #funcionarioUnidade, #funcionarioCidade{
+    margin-left: 9px;
+    font-size: 15;
+    color: rgb(105, 101, 101);
 }

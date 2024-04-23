@@ -1,26 +1,19 @@
 function cadastrar(){
-    var cidade = document.getElementById("selecionarCity");
-    var cidadeValor = cidade.value;
-    cidade.value = "Selecione";
+    const cidade = document.getElementById("selecionarCity").value;
+    const unidade = document.getElementById("unidadesMG").value;
+    const nome = document.getElementById("nomefunc").value;
+    const email = document.getElementById("emails").value;
+    const senha = document.getElementById("senhas").value;
 
+    // Passando os valores para a próxima página
+    sessionStorage.setItem("cidade", cidade);
+    sessionStorage.setItem("unidade", unidade);
+    sessionStorage.setItem("nome", nome);
+    sessionStorage.setItem("email", email);
+    sessionStorage.setItem("senha", senha);
 
-    var unidade = document.getElementById("unidadesMG");
-    var unidadeCadastrada = unidade.value;
-    unidade.value = "Selecione";
-
-    var nome = document.getElementById("nomefunc");
-    var funcionario = nome.value;
-    nome.value = "";
-
-    var email = document.getElementById("emails");
-    var emailFunc = email.value;
-    email.value = ""
-
-    var senha = document.getElementById("senhas");
-    var senhaFunc = senha.value;
-    senha.value = "";
-
-
-    window.location.href = "../index/cadastroRealizado.html";
+    // Redirecionando para a próxima página
+    window.location.href = "cadastroRealizado.html";
           
 }
+
