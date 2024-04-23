@@ -28,10 +28,23 @@ o<!DOCTYPE html>
             <option value="Selecione">Selecione</option>
         </select>
     </main>
+    <button>Acessar</button>
     <footer>
         <p>IP-Control</p>
     </footer>
     
 </body>
-
+<script>
+    const nome = sessionStorage.getItem("nome");
+        const selectFuncionario = document.getElementById("func");
+        const option = document.createElement("option");
+        option.text = nome;
+        selectFuncionario.add(option);
+        
+        function acessar() {
+            const selectedFuncionario = document.getElementById("func").value;
+            sessionStorage.setItem("funcionarioSelecionado", selectedFuncionario);
+            window.location.href = "../index/funcionario.html";
+        }
+</script>
 </html>
