@@ -15,7 +15,7 @@ header{
     display: flex;
     background-color: #4a42423b;
     border-radius: 25px;
-    width: 300px;
+    width: 270px;
     padding: 1%;
     padding-right: 6%;
     display: flex;
@@ -53,6 +53,7 @@ main{
     display: grid;
     align-items: center;
     justify-content: center;
+    
     
 }
  
@@ -100,14 +101,17 @@ main{
 #cidade{
     
     color: white;
+    
 }
-#selecione{
-    font-size: 20px;
+#selecionarCity{
+    margin-left: 2%;
 }
+
 select{
     background-color: #4a42423b;
     color: white;
     padding: 5px;
+    width: 70%;
 }
 #unidade{
     color: white;
@@ -117,5 +121,69 @@ select{
 #unidadesMG{
     margin-left: 2%;
 
-    width: 75%;
+    width: 70%;
+}
+option{
+    background-color: #383535;
+    color: white;
+}
+input{
+    background-color: #4a42423b;
+    color: white;
+    padding: 7px;
+    margin-left: 6%;
+    width: 63%;
+
+}
+#nomeInput{
+    margin-top: 6%;
+   
+    
+}
+p{
+   
+    font-size: 16px;
+}
+#name{
+    margin-left: -4%;
+}
+.emailSenha{
+    margin-left: 2%;
+}
+
+.inptSenhaEmail{
+    width: 63%;
+    margin-left: 4% ;
+    
+}
+.textEmailSenha{
+    margin-left: -6%;
+}
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+button{
+    margin-left: 10%;
+    color: white;
+    padding: 15px;
+    background-color: #403939db;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 3%;
+}
+button:hover{
+    background-color: #242222;
+    text-decoration: underline;
+}
+#conteudo{
+    margin-top: 12%;
+}
+#test{
+    margin: 0px;
 }
