@@ -138,5 +138,8 @@ tr, td, colgroup{
     border: 1px white solid;
     text-align: center;
 }
-
+th{
+    padding-left: 30%;
+    text-align: center;
+}
 
