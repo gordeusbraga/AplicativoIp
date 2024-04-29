@@ -120,7 +120,7 @@ button{
 table{
     color: white;
     margin-top: 10%;
-    margin-left: 3%;
+    margin-left: 4%;
     border-collapse: collapse;
     border: 1px white solid;
     width: 85%;
@@ -128,7 +128,7 @@ table{
     font-size: 10px;
 } 
 th, td{
-    padding: 4px;
+    padding: 1px;
     padding-top: 3%;
     margin: 0px;
 
@@ -138,8 +138,5 @@ tr, td, colgroup{
     border: 1px white solid;
     text-align: center;
 }
-th{
-    padding-left: 30%;
-    text-align: center;
-}
+
 
